@@ -1,0 +1,246 @@
+/*  
+Theme Name: Sinergi Event
+Theme URI: http://ari.co.id
+Description: Wordpress themes untuk jasa rental.
+Version: 1.1
+Author: arimedia
+Author URI: http://ari.co.id
+*/
+body{font-family:Arial;font-size:15px;line-height:1.7em;color:#333;background-color:#666}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:Roboto Condensed,Arial,Helvetica,sans-serif}
+img{max-width:100%}
+.tombol-atas{width:100%;color:#000;height:100px;padding-top:45px}
+.sinergi-wrap{position:relative;overflow:hidden;width:940px;background-color:#FFF;margin-right:auto;margin-left:auto}
+.sinergi-topheader{float:left;width:100%;font-size:18px;font-weight:normal;color:#FFF;background-color:#C2C2C2;padding-top:5px;padding-bottom:5px}
+.sinergi-header{float:left;width:100%;background-color:#fff;padding-top:5px;padding-bottom:5px}
+.sinergi-featured{float:left;width:100%;background-color:#000}
+.sinergi-konten{float:left;width:100%;padding-top:0;background-color:#fff}
+.sinergi-footer{float:left;width:100%;background-color:#1c1c1c;color:#FFF;padding-top:10px;padding-bottom:10px;border-top-width:1px;border-top-style:solid;border-top-color:#999;text-align:center}
+h1{font-size:40px;line-height:45px}
+h2{font-size:30px;line-height:35px}
+h3{font-size:25px;line-height:25px}
+h4{font-size:20px;line-height:20px}
+h5{font-size:15px;line-height:15px}
+h6{font-size:12px;line-height:15px}
+a,a:hover{text-decoration:none;transition:color linear .25s;-ms-transition:color linear .25s;-moz-transition:color linear .25s;-webkit-transition:color linear .25s;-o-transition:color linear .25s;color:#333}
+.margin-bottom{margin-bottom:40px}
+.margin-top{margin-top:40px}
+p{line-height:22px}
+p img{padding:0;max-width:100%;height:auto}
+img.center{display:inline;margin-top:5px;margin-bottom:5px}
+img.alignright{display:inline;border:1px solid #ccc;margin-top:5px;margin-bottom:5px;margin-left:5px}
+img.alignleft{display:inline;margin-top:5px;margin-bottom:5px;margin-right:5px;border:1px solid #ccc}
+.alignright{float:right;margin-top:4px;margin-bottom:4px}
+.alignleft{float:left;margin-top:4px;margin-bottom:4px}
+.aligncenter{clear:both;display:block;margin-left:auto;margin-right:auto;margin-top:5px;margin-bottom:5px}
+.logo{font-size:36px;font-weight:normal;width:100%;text-align:center}
+.logo-text{word-wrap:break-word;height:auto;font-size:46px;font-weight:normal;width:100%;text-align:center;padding-top:10px;line-height:46px;text-transform:capitalize}
+.logo-text a:hover{color:#666}
+#nav{float:left;width:100%;text-align:center;height:auto;z-index:1000;margin-bottom:10px}
+nav select{display:none;border:2px solid #CCC;padding:5px;background-color:#efefef}
+ul.dropdown{list-style:none;float:left;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;margin-top:0;margin-bottom:0}
+ul.dropdown li{float:left;position:relative}
+ul.dropdown a{color:#FFF;display:block;position:relative;text-align:center;z-index:98;padding-top:5px;padding-right:10px;padding-bottom:5px;padding-left:10px;border-right-width:1px;border-right-style:solid;border-right-color:#ebebeb;font-size:16px}
+ul.dropdown li:hover a{color:#fff;background-color:#333}
+ul.dropdown li ul a{display:block;font-size:16px;margin:0;text-align:left;padding-right:5px;padding-left:10px;z-index:1000;text-transform:capitalize;border-right-style:none;color:#FFF}
+ul.dropdown ul{list-style:none;margin:0;padding:0;width:160px;position:absolute;z-index:500}
+ul.dropdown li ul{top:auto}
+ul.dropdown ul ul{top:0;left:100%}
+ul.dropdown ul li{float:none}
+ul.dropdown ul,ul.dropdown li:hover ul ul,ul.dropdown ul li:hover ul ul{display:none}
+ul.dropdown li:hover ul,ul.dropdown ul li:hover ul,ul.dropdown ul li ul li:hover ul{display:block}
+ul.dropdown li * a{background-color:#e9e9e9;padding:5px;color:#000}
+ul.dropdown li * a:hover{background-color:#666}
+ul.dropdown .current-menu-item{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0}
+ul.dropdown .current-menu-item a{background-color:#333;color:#FFF}
+.sinergi-slider{float:left;width:100%;padding:0;margin-top:-10px;background-color:#000}
+.sinergi-slider .carousel-inner{width:100%;margin:0 auto;max-height:350px}
+.sinergi-slider .carousel-inner img{width:100%;margin:0 auto}
+.carousel-indicators{bottom:10px}
+.post{text-align:left;background-color:#fff;margin-bottom:10px;clear:both;height:auto;overflow:hidden;padding-top:0;padding-right:20px;padding-bottom:0;padding-left:20px}
+.post h1{text-align:center}
+.post ul{list-style-type:disc;margin-top:0;margin-right:0;margin-bottom:5px;margin-left:25px;padding-top:0;padding-right:5px;padding-bottom:0;padding-left:5px;list-style-position:outside}
+.post p,.post ul,.post ol,.post dd,.post pre,.post hr{margin-bottom:12px}
+.post ol{list-style-position:outside;margin-left:10px;margin-bottom:10px}
+.post ol li{padding:3px;line-height:24px}
+.post ul li{padding:3px;line-height:24px}
+.post blockquote{color:#000;margin-top:10px;margin-bottom:10px;font-style:italic;margin-right:5px;margin-left:0}
+.post blockquote{background:#f9f9f9;margin:1.5em 10px;padding:30px;font-family:Georgia,"Times New Roman",Times,serif}
+.post blockquote:before{color:#000;content:open-quote;font-size:4em;line-height:.1em;margin-right:.25em;vertical-align:-0.4em;content:"\201C"}
+.post blockquote p{display inline}
+.post blockquote span{font-family:"Open Sans",Arial;display:block;margin-top:10px}
+.post ul li ul{margin-left:10px;padding:0;border:0}
+.tags{float:left;font-size:11px;text-align:left;margin:0;padding:0;color:#999}
+.ads{text-align: center;margin-right: auto;margin-left: auto;clear: both;padding-right: 15px;padding-left: 15px;}
+.sidebar-box{margin-bottom:10px;float:left;clear:both;width:100%;text-align:left}
+.sidebar-box ul{margin:0;list-style:none;width:100%;list-style-type:none;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0}
+.sidebar-box ul li{width:100%}
+.sidebar-box ul li a{display:block;padding-top:5px;padding-right:0;padding-bottom:5px;padding-left:0}
+.sidebar-box ul li a:hover{color:#fff;text-decoration:none;padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px}
+.sidebar-box h4{width:100%;font-weight:normal;margin-bottom:0;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#CCC;padding-bottom:5px}
+.breadcrumbs{float:none;font-size:14px;text-align:left;margin-bottom:0;color:#333;clear:both;padding-bottom:5px}
+.breadcrumbs a{text-decoration:none;padding-right:3px;margin-right:1px;color:#333;padding-left:3px}
+.wp-pagenavi{width:100%;clear:both;padding-top:5px;padding-right:0;padding-bottom:5px;padding-left:0;height:auto;text-align:center;margin-top:10px;margin-right:auto;margin-bottom:10px;margin-left:auto}
+.pages{color:#000;width:auto;height:auto;margin-top:0;margin-right:3px;margin-bottom:0;margin-left:0;border:1px solid #e9e9e9;padding:8px;background-color:#FFF}
+.current{color:#333;width:auto;height:auto;margin:0;border:1px solid #e9e9e9;padding:8px}
+.wp-pagenavi a{color:#000;text-decoration:none;height:auto;width:auto;margin:0;display:inline;border:1px solid #e9e9e9;padding:8px;background-color:#FFF}
+.wp-pagenavi a:hover{border:1px solid #e9e9e9}
+.picnav{text-align:center;margin:0}
+.picnav img{margin:5px;padding:2px}
+.image{text-align:center;padding-top:5px;padding-bottom:5px;margin-bottom:5px;margin-top:5px}
+.picnav{width:100%;text-align:center;margin:0}
+.picnav img{background-color:#FFF;margin:3px;padding:2px;border:1px solid #ccc}
+.wp-caption{margin-bottom:10px;max-width:90%;background-color:#f4f4f4;padding:5px;margin-top:10px}
+.wp-caption img{display:block;max-width:100%;margin-top:0;margin-right:auto;margin-bottom:0;margin-left:auto;height:auto}
+.wp-caption .wp-caption-text,.gallery-caption{color:#666;font-size:12px}
+.wp-caption .wp-caption-text{margin-bottom:5px;position:relative;padding-top:0;padding-right:0;padding-bottom:5px;padding-left:4px}
+.beli{border:0;display:inline-block;color:#fff;text-decoration:none;border-bottom:1px solid rgba(0,0,0,0.25);position:relative;cursor:pointer}
+.small.beli{-moz-box-shadow:1px 1px 5px #999;-webkit-box-shadow:1px 1px 5px #999;box-shadow:1px 1px 5px #999;font-size:18px;float:none;font-weight:normal;padding-top:8px;padding-right:10px;padding-bottom:8px;padding-left:10px}
+.medium.beli{-moz-box-shadow:1px 1px 5px #999;-webkit-box-shadow:1px 1px 5px #999;box-shadow:1px 1px 5px #999;font-size:16px;float:none;font-weight:normal;padding-top:4px;padding-right:10px;padding-bottom:4px;padding-left:10px;margin-top:5px;margin-bottom:5px}
+.large.beli{font-size:22px;margin-top:10px;margin-bottom:10px;font-weight:bold;padding-top:10px;padding-right:15px;padding-bottom:10px;padding-left:15px;-webkit-box-shadow:1px 9px 7px rgba(50,50,50,0.59);-moz-box-shadow:1px 9px 7px rgba(50,50,50,0.59);box-shadow:1px 9px 7px rgba(50,50,50,0.59);width:auto;margin-right:auto;margin-left:auto}
+.large.beli:hover,.small.beli:hover{}
+.tombol{width:201px;margin-right:auto;margin-left:auto}
+.sinergi-produk{background:none repeat scroll 0 0 #fff;border:1px solid #e1e1e1;box-shadow:0 4px 8px #e9e9e9;min-height:300px;text-align:center;background-color:#FFF;padding-bottom:5px;margin-bottom:20px;overflow:hidden}
+.sinergi-produk:hover{border:1px solid rgba(42,127,211,0.2);box-shadow:0 0 15px -8px #2a7fd3}
+.sinergi-gambar-center{height:150px;width:225px;text-align:center;margin-right:auto;margin-left:auto;float:none;padding-bottom:10px}
+.sinergi-gambar{height:150px;width:225px;vertical-align:middle;margin-bottom:10px;text-align:center;display:table-cell;margin-right:auto;margin-left:auto;float:none}
+.sinergi-lable{z-index:99;position:absolute;width:75px;float:left;margin-top:-5px;margin-left:-5px}
+.sinergi-harga{font-size:20px;margin-top:5px;margin-right:0;margin-left:0;padding:2px}
+.habis{font-size:18px;color:#F00;margin-top:10px;margin-right:0;margin-bottom:8px;margin-left:0;height:auto}
+.habis-single{font-size:22px;font-weight:bold;color:#F00;text-align:left}
+.sinergi-title-produk{text-align:center;margin-top:10px;height:53px;overflow:hidden;padding-right:10px;padding-left:10px;font-size:22px;margin-bottom:0;padding-top:0;padding-bottom:0}
+.thanks{padding:10px;font-size:16px;color:#000;text-align:left}
+.keatas{width:35px;height:35px;position:fixed;bottom:0;right:10px;display:none;margin-bottom:10px;z-index:1000;text-align:center;background-color:#999;color:#FFF;padding:5px}
+.commentsblock textarea{width:100%}
+.testimoniku{text-align:left;padding:15px;font-size:14px}
+.testimoniku-tanggal{font-size:14px}
+ol.commentlist{list-style:none}
+ol.commentlist li{border:5px solid #eaeaea;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;position:relative;list-style-type:none;margin-top:10px;margin-bottom:10px;min-height:150px;margin-left:-30px}
+ol.commentlist li h2{padding:10px}
+ol.commentlist li ul{padding:0;list-style-type:none;margin:0}
+#respond{padding:20px}
+#respond ul{padding:0 !important;margin:0 !important}
+#respond li{list-style-type:none;list-style-image:none;margin-bottom:10px}
+#respond label{font-size:14px;display:block;float:left;width:150px;text-align:left;padding-right:5px}
+#respond .title{font-size:18px;float:left;width:100%;padding-bottom:10px}
+#respond .text{width:60%;padding:3px;border:1px solid #ccc}
+#respond textarea{max-width:100%}
+#respond .clearfix{clear:left;padding-top:10px}
+#respond .right{float:right}
+#respond .prev{float:left}
+.sinergi-kontak{float:left;width:100%;background-color:#000;color:#FFF;padding-top:5px}
+.contact-bbm{background-image:url(images/bbm.png);background-position:left;background-repeat:no-repeat;padding-right:5px;padding-left:25px;float:right;padding-top:2px;padding-bottom:2px;min-width:90px;margin-bottom:3px}
+.contact-a{padding-right:25px;float:left;padding-top:2px;padding-bottom:2px;min-width:90px;margin-bottom:3px}
+.contact-ym{width:100%;text-align:left;float:left;margin-top:5px;margin-bottom:5px}
+.sinergi-featured-blog{float:left;width:100%;background-color:#5A5A5A;color:#fff;padding-top:10px;padding-bottom:10px}
+.sinergi-featured-blog h3{font-size:16px}
+.sinergi-blog{float:left;width:100%}
+.sinergi-blog img{width:100%}
+.sinergi-blog ul{margin:0;float:left;width:100%;list-style:none;padding:0}
+.sinergi-blog ul li{float:left;width:100%;margin:5px 0 0 0;background-color:rgba(0,0,0,0.2);padding:7px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;position:relative}
+.sinergi-blog ul li a:hover{color:#999}
+.sinergi-blog .thumb{width:70px;float:left;margin:0 15px 0 0}
+.sinergi-blog h4{font-size:16px;margin:0}
+
+.detail{float:left;margin-top:0;margin-right:0;margin-bottom:0;width:100%;font-size:14px}
+.detail p{margin:0}
+.sinergi-blog-list{list-style:none;padding:0}
+.sinergi-blog-list li{padding-bottom:30px;border-bottom:1px solid #e5e5e5;min-height:200px;margin-top:0;margin-right:0;margin-bottom:30px;margin-left:0;padding-right:0;padding-left:0}
+.sinergi-blog-list li a:hover{color:#333}
+.sinergi-blog-list li .thumbnail{margin:0 20px 0 0;padding:0;border:0;border-radius:0;box-shadow:none;position:relative}
+.sinergi-blog-list li .btn{padding:10px;border:0;border-radius:0;box-shadow:none;color:#FFF;text-shadow:none;text-transform:uppercase;transition:all linear .25s;-ms-transition:all linear .25s;-moz-transition:all linear .25s;-webkit-transition:all linear .25s;-o-transition:all linear .25s}
+.sinergi-blog-list li .btn:hover{color:#FFF;background-color:#666}
+.tanggal{color:#999;display:block;padding:0;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0}
+.navigation ul li a,.sinergi-blog-list ul li,.thumb img,.thumb img,.sidebar-box ul li a,.sinergi-produk:hover{transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;-webkit-transition:all .3s ease-in-out}
+.sinergi-testimoni{float:left;width:100%;background-color:#fff;font-size:22px;padding-top:10px}
+.testimoni{float:left;margin:0;text-align:center;width:100%;padding-top:0;padding-right:10px;padding-bottom:20px;padding-left:10px;border:1px double #ebebeb;background-color:#fff;min-height:250px;background-image:url(images/quote.gif);background-repeat:no-repeat}
+.testimoni h6,.testimoni p,.testimoni a{font-size:14px;text-decoration:none;font-weight:normal;margin:0 0 10px 0;margin:0;line-height:normal}
+.testimoni .thumb a:after{content:""}
+.testimoni a:after{content:"..."}
+.testimoni a:hover{text-decoration:underline}
+.testimoni p{color:#000;margin:20px 0;font-size:22px}
+.sinergi-welcome{background-repeat: no-repeat;
+background-image: url(images/cerah.png);float:left;width:100%;font-size:16px;color:#333;padding-top:10px;padding-right:0;padding-bottom:15px;padding-left:0;text-align:center;background-color:#f1f1f1;margin-bottom:10px}
+.sinergi-welcome h1{font-size:38px;line-height:42px}
+.top-kontak{
+font-size: 20px;
+color: #6D6D6D;
+text-align: right;
+margin-right: 10px;}
+.form-kontak{color:#333;text-align:left;width:auto;margin-right:auto;margin-left:auto}
+.boxer{border:1px solid #e8e8e8;text-align:left;background-color:#f0f0f0;-webkit-box-shadow:0 1px 10px rgba(50,50,50,0.31);-moz-box-shadow:0 1px 10px rgba(50,50,50,0.31);box-shadow:0 1px 10px rgba(50,50,50,0.31);margin-bottom:10px;clear:both;height:auto;overflow:hidden;padding-top:5px;padding-bottom:15px;margin-right:20px;margin-left:20px;font-family:"Roboto Condensed";font-size:28px;color:#000}
+.boxer h3{text-align:center}
+.boxer-title{text-align:center}
+.boxer-harga{font-size:40px;margin-top:5px;margin-right:0;margin-left:0;margin-bottom:10px;padding:2px;text-align:center}
+.kontak{background-image:url(images/icon.png);background-repeat:no-repeat;background-position:0 -10px;padding-right:5px;padding-left:40px;float:left;margin:5px;min-height:25px;padding-top:5px;padding-bottom:5px;min-width:160px}
+.kontak-bbm{background-image:url(images/icon.png);background-position:0 -122px;background-repeat:no-repeat;padding-right:3px;padding-left:40px;float:right;margin:5px;min-height:25px;padding-top:5px;padding-bottom:5px;min-width:120px}
+.kontak-sms{background-image:url(images/icon.png);background-position:0 -71px;background-repeat:no-repeat;padding-right:3px;padding-left:40px;float:left;margin:5px;min-height:25px;padding-top:5px;padding-bottom:5px;min-width:160px}
+.kontak-ym{text-align:center;float:left;margin:5px;width:235px;padding:5px;height:40px}
+.help-block{color:#00f}
+#newsticker{width:100%;margin-right:0;margin-bottom:0;margin-left:0;background-color:#C2C2C2;color:#FFF;font-size:14px}
+#newsticker>div{width:100%;height:30px;overflow:hidden;padding-top:2px;padding-bottom:2px}
+#newsticker>div.first{border-bottom:0}
+#newsticker dl{display:block;margin:0}
+#newsticker dt,#newsticker dd{display:block;float:left;padding:2px;margin-top:0;margin-right:10px;margin-bottom:0;margin-left:10px}
+#newsticker dt{color:#fff;padding-right:5px;padding-left:5px;font-weight:normal}
+#newsticker dd{color:#FFF;margin-right:30px;font-weight:normal}
+#newsticker dd a{color:#00C;margin-right:30px;text-decoration:underline}
+@media(max-width:800px){.sinergi-wrap{position:relative;overflow:hidden;width:100%;background-color:#FFF;margin-right:auto;margin-left:auto}
+.logo{font-size:36px;font-weight:normal;width:300px;text-align:center;margin-right:auto;margin-left:auto;clear:both}
+.logo-text{font-size:46px;font-weight:normal;width:100%;text-align:center;padding-top:30px}
+.cart{display:block;width:230px;color:#000;text-align:center;margin-right:auto;margin-left:auto;padding-top:5px;margin-bottom:5px;float:none}
+.tombol-atas{width:100%;color:#000;height:50px;padding-top:5px}
+nav{background-color:#000}
+nav ul{display:none}
+nav select{-webkit-appearance:listbox;display:inline-block;width:95%;height:50px;overflow:hidden;background:#efefef;float:none;margin-top:15px;margin-bottom:15px;font-size:22px}
+}
+div.wpcf7 {-webkit-box-shadow: 0 0 5px #666;
+box-shadow: 0 0 5px #666;
+background: #edeeee;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+width: 50%;}
+.wpcf7-form-control{-moz-box-shadow: 1px 1px 5px #999;
+-webkit-box-shadow: 1px 1px 5px #999;
+box-shadow: 1px 1px 5px #999;
+font-size: 18px;
+float: none;
+font-weight: normal;
+padding-top: 8px;
+padding-right: 10px;
+padding-bottom: 8px;
+padding-left: 10px;
+}
+.error{color:#fd1f1f;font-size:.85em;font-weight:normal}
+#recaptcha_image{float:left}
+#map_canvas{width:100%;height:300px}
+.center-block{display:block;margin-left:auto;margin-right:auto}
+.boxer2{text-align:left;background-color:#fff;margin-bottom:10px;clear:both;height:auto;overflow:hidden;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px}
+.featured-title{text-align:center;text-transform:uppercase;font-size:14px;font-weight:bold;background-color:#fff;clear:both;overflow:hidden;padding:5px;border-bottom-width:5px;border-bottom-color:#ccc;margin-bottom:20px}
+.featured-title h3{font-size:32px}
+.featured-title a{color:#333}
+.wp-sinergi-blog{float:left;width:100%}
+.wp-sinergi-blog img{width:100%}
+.wp-sinergi-blog ul{margin:0;float:left;width:100%;list-style:none;padding:0}
+.wp-sinergi-blog ul li{float:left;width:100%;min-height:100px;margin:5px 0 0 0;background-color:rgba(0,0,0,0.1);padding:7px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;position:relative}
+.wp-sinergi-blog ul li a{text-decoration:none}
+.wp-sinergi-blog ul li:hover{background-color:rgba(0,0,0,0.2)}
+.wp-sinergi-blog ul li:first-child{margin:0}
+.wp-sinergi-blog .thumb{width:70px;float:left;margin:0 15px 0 0}
+.wp-sinergi-blog .date{position:absolute;top:12px;right:10px}
+.wp-sinergi-blog .date ul li{width:auto;margin:0 0 0 10px !important;font-size:16px !important;background-color:transparent;padding:0 !important}
+.wp-sinergi-blog .date ul li:first-child{margin:0}
+.wp-sinergi-blog h4{font-size:16px;margin:0}
+
+.widget .unstyled {
+border-top: 1px solid #ebebeb;
+margin-left: -40px;
+list-style: none;
+}
+.biz_hours-widget ul li:nth-child(odd) {
+background-color: #f0f0f0;
+}
+.biz_hours-widget ul.unstyled li {
+border: none;
+padding: 5px;
+}
